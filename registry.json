@@ -19,7 +19,7 @@
       "versions": {
         "1.0.0": {
           "archive": {
-            "url": "http://registry:80/move2topic_value-1.0.0.module",
+            "url": "https://github.com/floresboy/KS-Datahub/raw/refs/heads/main/move2topic_value-1.0.0.module",
             "shasum512": "89712d2616cf4e951a3c4a29affa578ec951a74b0071129a5d043aa3a93703d89f1bc55202f851ddd0e9851f0a86ccc4f0d4d6922ad57b33e43ffda832bd4ee8"
           }
         }     
