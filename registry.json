@@ -1,0 +1,29 @@
+{
+
+    "lastUpdated": "2024-06-23T15:05:36.171135Z[UTC]",
+    "name": "Kamiels Repo",
+    "version": "1",
+    "modules": {
+      "TopicForwarding": {
+        "name": "TopicForwarding",
+        "description": "Uses the JSON payload key topic as new topic for the payload",
+        "maintainers": [
+          {
+            "name": "Kamiel Straatman"
+          }
+        ],
+      "versionTags": {
+        "latest": "1.0.0"
+      },
+      "requiredSystemVersions": ["hivemq-enterprise/4.30.0"],
+      "versions": {
+        "1.0.0": {
+          "archive": {
+            "url": "http://registry:80/move2topic_value-1.0.0.module",
+            "shasum512": "89712d2616cf4e951a3c4a29affa578ec951a74b0071129a5d043aa3a93703d89f1bc55202f851ddd0e9851f0a86ccc4f0d4d6922ad57b33e43ffda832bd4ee8"
+          }
+        }     
+      }
+    }
+  }
+}
