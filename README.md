@@ -1,4 +1,5 @@
-# KS-Datahub
+# KS-Datahub Module Registry in GitHub
+
 HiveMQ datahub modules
 
 na upload:
