@@ -4,6 +4,7 @@ HiveMQ datahub modules
 
 na upload:
                    https://github.com/floresboy/KS-Datahub/blob/main/move2topic_value-1.0.0.module
+                   > shasum -a 512 Calculate-mov-avg-1.0.0.module
 verandeer in :
 
             "url": "https://raw.githubusercontent.com/floresboy/KS-Datahub/main/move2topic_value-1.0.0.module",
