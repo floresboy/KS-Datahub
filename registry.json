@@ -24,6 +24,29 @@
           }
         }     
       }
-    }
+    },
+    {
+        "/Calculate-mov-avg": {
+          "name": "/Calculate-mov-avg",
+          "description": "Calculates the movinge average over 6 incoming values",
+          "maintainers": [
+            {
+              "name": "Kamiel Straatman"
+            }
+          ],
+        "versionTags": {
+          "latest": "1.0.0"
+        },
+        "requiredSystemVersions": ["hivemq-enterprise/4.30.0"],
+        "versions": {
+          "1.0.0": {
+            "archive": {
+              "url": "https://raw.githubusercontent.com/floresboy/KS-Datahub/main/Calculate-mov-avg-1.0.0.module",
+              "shasum512": "c656b17e40c40f2f13135410fc7785b3d7c019faed1925fd587c2d1140cda776485994c4ac53ea1b738491372108f012398176d0ad52ddb57193b3775c055543"
+            }
+          }     
+        }
+      }
   }
 }
+
