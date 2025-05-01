@@ -27,7 +27,7 @@
     },
     
         "Calculate-mov-avg": {
-          "name": "/Calculate-mov-avg",
+          "name": "Calculate-mov-avg",
           "description": "Calculates the movinge average over 6 incoming values",
           "maintainers": [
             {
