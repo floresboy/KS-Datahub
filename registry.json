@@ -58,13 +58,13 @@
                 }
             ],
             "versionTags": {
-                "latest": "1.0.0"
+                "latest": "0.1.0"
             },
             "requiredSystemVersions": [
                 "hivemq-enterprise/4.30.0"
             ],
             "versions": {
-                "1.0.0": {
+                "0.1.0": {
                     "archive": {
                         "url": "https://raw.githubusercontent.com/floresboy/KS-Datahub/main/hivemq-sparkplug-0.1.0.module",
                         "shasum512": ""
