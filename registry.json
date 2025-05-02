@@ -1,50 +1,76 @@
 {
-
     "lastUpdated": "2024-06-23T15:05:36.171135Z[UTC]",
     "name": "Kamiels Repo",
     "version": "1",
     "modules": {
-      "TopicForwarding": {
-        "name": "TopicForwarding",
-        "description": "Uses the JSON payload key topic as new topic for the payload",
-        "maintainers": [
-          {
-            "name": "Kamiel Straatman"
-          }
-        ],
-      "versionTags": {
-        "latest": "1.0.0"
-      },
-      "requiredSystemVersions": ["hivemq-enterprise/4.30.0"],
-      "versions": {
-        "1.0.0": {
-          "archive": {
-            "url": "https://raw.githubusercontent.com/floresboy/KS-Datahub/main/move2topic_value-1.0.0.module",
-            "shasum512": "89712d2616cf4e951a3c4a29affa578ec951a74b0071129a5d043aa3a93703d89f1bc55202f851ddd0e9851f0a86ccc4f0d4d6922ad57b33e43ffda832bd4ee8"
-          }
-        }     
-      }
-    },
-    "Calculate-mov-avg": {
-    "name": "Calculate-mov-avg",
-    "description": "Calculates the movinge average over 6 incoming values",
-    "maintainers": [
-    {
-        "name": "Kamiel Straatman"
-    }
-    ],
-    "versionTags": {
-        "latest": "1.0.0"
-    },
-    "requiredSystemVersions": ["hivemq-enterprise/4.30.0"],
-    "versions": {
-        "1.0.0": {
-        "archive": {
-            "url": "https://raw.githubusercontent.com/floresboy/KS-Datahub/main/Calculate-mov-avg-1.0.0.module",
-            "shasum512": "c656b17e40c40f2f13135410fc7785b3d7c019faed1925fd587c2d1140cda776485994c4ac53ea1b738491372108f012398176d0ad52ddb57193b3775c055543"
+        "TopicForwarding": {
+            "name": "TopicForwarding",
+            "description": "Uses the JSON payload key topic as new topic for the payload",
+            "maintainers": [
+                {
+                    "name": "Kamiel Straatman"
+                }
+            ],
+            "versionTags": {
+                "latest": "1.0.0"
+            },
+            "requiredSystemVersions": [
+                "hivemq-enterprise/4.30.0"
+            ],
+            "versions": {
+                "1.0.0": {
+                    "archive": {
+                        "url": "https://raw.githubusercontent.com/floresboy/KS-Datahub/main/move2topic_value-1.0.0.module",
+                        "shasum512": "89712d2616cf4e951a3c4a29affa578ec951a74b0071129a5d043aa3a93703d89f1bc55202f851ddd0e9851f0a86ccc4f0d4d6922ad57b33e43ffda832bd4ee8"
+                    }
+                }
             }
-        }     
+        },
+        "Calculate-mov-avg": {
+            "name": "Calculate-mov-avg",
+            "description": "Calculates the movinge average over 6 incoming values",
+            "maintainers": [
+                {
+                    "name": "Kamiel Straatman"
+                }
+            ],
+            "versionTags": {
+                "latest": "1.0.0"
+            },
+            "requiredSystemVersions": [
+                "hivemq-enterprise/4.30.0"
+            ],
+            "versions": {
+                "1.0.0": {
+                    "archive": {
+                        "url": "https://raw.githubusercontent.com/floresboy/KS-Datahub/main/Calculate-mov-avg-1.0.0.module",
+                        "shasum512": "c656b17e40c40f2f13135410fc7785b3d7c019faed1925fd587c2d1140cda776485994c4ac53ea1b738491372108f012398176d0ad52ddb57193b3775c055543"
+                    }
+                }
+            }
+        },
+        "hivemq-sparkplug-0.1.0.module": {
+            "name": "hivemq-sparkplug-0.1.0.module",
+            "description": "hivemq-sparkplug KS modified 0.1.0 module",
+            "maintainers": [
+                {
+                    "name": "Kamiel Straatman"
+                }
+            ],
+            "versionTags": {
+                "latest": "1.0.0"
+            },
+            "requiredSystemVersions": [
+                "hivemq-enterprise/4.30.0"
+            ],
+            "versions": {
+                "1.0.0": {
+                    "archive": {
+                        "url": "https://raw.githubusercontent.com/floresboy/KS-Datahub/main/hivemq-sparkplug-0.1.0.module",
+                        "shasum512": ""
+                    }
+                }
+            }
         }
-    }
     }
 }
